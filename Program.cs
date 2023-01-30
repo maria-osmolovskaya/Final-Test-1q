@@ -21,10 +21,10 @@ string [] GetNewArray(string [] array)
               newarray[count] = array[i];
               count++;
             }
-        }
+    }
         
         return newarray;
-    }
+}
 
 // метод печати маccива
 void PrintArray(string[] array)
@@ -32,9 +32,9 @@ void PrintArray(string[] array)
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array[i]} ");
-        }
-        Console.WriteLine();
     }
+        Console.WriteLine();
+}
    
 string [] newarray1 = GetNewArray(array1);
 PrintArray(newarray1);
